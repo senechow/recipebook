@@ -329,7 +329,7 @@ input, select, textarea
         margin-bottom 10px 
     button
         margin-top 20px 
-    .fa-trash
+    .fa-trash, .fa-pencil
         opacity 0.3
         cursor pointer
         position absolute
@@ -350,7 +350,10 @@ input, select, textarea
     &:hover 
         shadow-level(3)
         // animation card 0.6s ease 1 forwards
-
+    .fa-pencil
+        right 40px
+        &:hover
+            color purple
 @keyframes card
     0%
         transform translate3d(0, 0, 0)
